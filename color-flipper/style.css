@@ -1,0 +1,86 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+header{
+    background-image: linear-gradient(to right,black,white);;
+    padding: 1rem;
+    text-align: center;
+    color: aqua;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(4, 0, 7), 0 0 ;
+    font-size: 3em;
+    }
+
+.nav-list{
+    background-color: rgb(194, 255, 255);
+}
+
+li{
+    display: inline;
+    font-size: 1.5em;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(94, 94, 6);
+    padding-right: 15px;
+    margin-left: 35px;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px white, 0 0 25px rgb(136, 38, 228), 0 0 5px darkblue;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+}
+
+h1{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 4px;
+}
+/*
+#btn{
+    background-color: rgb(194, 255, 255);
+    color: rgb(3, 3, 3);
+    font-size: 1.5em;
+    margin-top: 10px;
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    }
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+button{
+    opacity:0.5;
+  }
+  button:hover{
+    opacity:1;
+  }
+*/
+button {
+    margin-top: 5px;
+    border: 3px solid aquamarine;
+  }
+  
+button:hover {
+    border: 3px dotted aqua;
+    color: aqua;
+    background: #fff;
+    cursor: pointer;
+}
