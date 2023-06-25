@@ -1,2 +1,2 @@
 # color-flipper
-website 
+website to create color combinations https://colour-flipper.netlify.app/
